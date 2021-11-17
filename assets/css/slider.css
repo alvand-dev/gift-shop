@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.slider-container {
+  padding: 10px;
+}
+
+.slider-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.slider-item:not(.slider-item:last-child) {
+  margin-right: 20px;
+}
+
+.slider-item {
+  margin-bottom: -4px;
+}
+
+.slider-item img {
+  max-width: 100%;
+}
+
+.slider-arrows {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}

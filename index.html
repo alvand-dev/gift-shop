@@ -7,15 +7,15 @@
   <meta name="author" content="Mohammad Ahmadian">
   <link rel="icon" type="image/png" href="assets/images/logo-1.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/slider.css">
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/fonts/fontawesome/css/fontawesome.min.css">
   <link rel="stylesheet" href="assets/fonts/fontawesome/css/brands.min.css">
   <link rel="stylesheet" href="assets/fonts/fontawesome/css/solid.min.css">
-  <link rel="stylesheet" href="assets/css/splide-core.min.css">
   <script src="assets/js/main-nav.js" defer></script>
   <script src="assets/js/back-to-top.js" defer></script>
-  <script src="assets/js/slider.js" defer></script>
-  <script src="assets/js/splide.min.js" defer></script>
+  <script src="assets/js/new-products-slider.js" defer></script>
+  <script src="assets/js/featured-products-slider.js" defer></script>
   <title>Gift Shop | All the best for all</title>
 </head>
 <body>
@@ -181,365 +181,361 @@
   </section>
 
   <!-- New products -->
-  <section id="new-products" class="splide">
-    <header class="splide__arrows">
+  <section id="new-products" class="slider-container">
+    <header class="slider-arrows">
       <h2>New Products</h2>
       <div>
-        <a class="splide__arrow splide__arrow--prev" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></a>
-        <a class="splide__arrow splide__arrow--next" aria-label="Next slide"><i class="fas fa-chevron-right"></i></a>
+        <a class="slider-arrow-prev"><i class="fas fa-chevron-left"></i></a>
+        <a class="slider-arrow-next"><i class="fas fa-chevron-right"></i></a>
       </div>
     </header>
 
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide">
-          <a href="#">
-            <div class="overlay"></div>
-            <img src="assets/images/new-product-1.jpg" alt="Product Title">
-          </a>
-          <div class="buttons">
-            <span><a href="#">Detail</a></span>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span><span>$</span> 250.<sup>00</sup></span>
+    <ul class="slider-list">
+      <li class="slider-item">
+        <a href="#">
+          <div class="overlay"></div>
+          <img src="assets/images/new-product-1.jpg" alt="Product Title">
+        </a>
+        <div class="buttons">
+          <span><a href="#">Detail</a></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-        </li>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
+          </div>
+          <span><span>$</span> 250.<sup>00</sup></span>
+        </div>
+      </li>
 
-        <li class="splide__slide">
-          <a href="#">
-            <div class="overlay"></div>
-            <img src="assets/images/new-product-2.jpg" alt="Product Title">
-          </a>
-          <div class="buttons">
-            <span><a href="#">Detail</a></span>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span><span>$</span> 21.<sup>50</sup></span>
+      <li class="slider-item">
+        <a href="#">
+          <div class="overlay"></div>
+          <img src="assets/images/new-product-2.jpg" alt="Product Title">
+        </a>
+        <div class="buttons">
+          <span><a href="#">Detail</a></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-        </li>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
+          </div>
+          <span><span>$</span> 21.<sup>50</sup></span>
+        </div>
+      </li>
 
-        <li class="splide__slide">
-          <a href="#">
-            <div class="overlay"></div>
-            <img src="assets/images/new-product-3.jpg" alt="Product Title">
-          </a>
-          <div class="buttons">
-            <span><a href="#">Detail</a></span>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span><span>$</span> 79.<sup>90</sup></span>
+      <li class="slider-item">
+        <a href="#">
+          <div class="overlay"></div>
+          <img src="assets/images/new-product-3.jpg" alt="Product Title">
+        </a>
+        <div class="buttons">
+          <span><a href="#">Detail</a></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-        </li>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
+          </div>
+          <span><span>$</span> 79.<sup>90</sup></span>
+        </div>
+      </li>
 
-        <li class="splide__slide">
-          <a href="#">
-            <div class="overlay"></div>
-            <img src="assets/images/new-product-4.jpg" alt="Product Title">
-          </a>
-          <div class="buttons">
-            <span><a href="#">Detail</a></span>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span><span>$</span> 250.<sup>00</sup></span>
+      <li class="slider-item">
+        <a href="#">
+          <div class="overlay"></div>
+          <img src="assets/images/new-product-4.jpg" alt="Product Title">
+        </a>
+        <div class="buttons">
+          <span><a href="#">Detail</a></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-        </li>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
+          </div>
+          <span><span>$</span> 250.<sup>00</sup></span>
+        </div>
+      </li>
 
-        <li class="splide__slide">
-          <a href="#">
-            <div class="overlay"></div>
-            <img src="assets/images/new-product-5.jpg" alt="Product Title">
-          </a>
-          <div class="buttons">
-            <span><a href="#">Detail</a></span>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span><span>$</span> 21.<sup>50</sup></span>
+      <li class="slider-item">
+        <a href="#">
+          <div class="overlay"></div>
+          <img src="assets/images/new-product-5.jpg" alt="Product Title">
+        </a>
+        <div class="buttons">
+          <span><a href="#">Detail</a></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-        </li>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
+          </div>
+          <span><span>$</span> 21.<sup>50</sup></span>
+        </div>
+      </li>
 
-        <li class="splide__slide">
-          <a href="#">
-            <div class="overlay"></div>
-            <img src="assets/images/new-product-6.jpg" alt="Product Title">
-          </a>
-          <div class="buttons">
-            <span><a href="#">Detail</a></span>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span><span>$</span> 79.<sup>90</sup></span>
+      <li class="slider-item">
+        <a href="#">
+          <div class="overlay"></div>
+          <img src="assets/images/new-product-6.jpg" alt="Product Title">
+        </a>
+        <div class="buttons">
+          <span><a href="#">Detail</a></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-        </li>
-      </ul>
-    </div>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
+          </div>
+          <span><span>$</span> 79.<sup>90</sup></span>
+        </div>
+      </li>
+    </ul>
   </section>
 
   <!-- Featured products -->
-  <section id="featured-products" class="splide">
-    <header class="splide__arrows">
+  <section id="featured-products" class="slider-container">
+    <header class="slider-arrows">
       <h2>Featured Products</h2>
       <div>
-        <a class="splide__arrow splide__arrow--prev" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></a>
-        <a  class="splide__arrow splide__arrow--next" aria-label="Next slide"><i class="fas fa-chevron-right"></i></a>
+        <a class="slider-arrow-prev"><i class="fas fa-chevron-left"></i></a>
+        <a  class="slider-arrow-next"><i class="fas fa-chevron-right"></i></a>
       </div>
     </header>
 
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide">
-          <div class="p-image">
-            <a href="#">
-              <img src="assets/images/featured-product-1.jpg" alt="Product Title">
-            </a>
-            <span class="off">20% OFF</span>
+    <ul class="slider-list">
+      <li class="slider-item">
+        <div class="p-image">
+          <a href="#">
+            <img src="assets/images/featured-product-1.jpg" alt="Product Title">
+          </a>
+          <span class="off">20% OFF</span>
+        </div>
+        <div class="title">
+          <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
+          <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+        </div>
+        <div class="buttons">
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-exchange-alt"></i></a>
+            <div class="tooltip-text">Compare</div>
           </div>
-          <div class="title">
-            <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
-            <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-          <div class="buttons">
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-exchange-alt"></i></a>
-              <div class="tooltip-text">Compare</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span><span>$</span> 3.<sup>99</sup></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
           </div>
-        </li>
+          <span><span>$</span> 3.<sup>99</sup></span>
+        </div>
+      </li>
 
-        <li class="splide__slide">
-          <div class="p-image">
-            <a href="#">
-              <img src="assets/images/featured-product-2.jpg" alt="Product Title">
-            </a>
+      <li class="slider-item">
+        <div class="p-image">
+          <a href="#">
+            <img src="assets/images/featured-product-2.jpg" alt="Product Title">
+          </a>
+        </div>
+        <div class="title">
+          <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
+          <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+        </div>
+        <div class="buttons">
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-exchange-alt"></i></a>
+            <div class="tooltip-text">Compare</div>
           </div>
-          <div class="title">
-            <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
-            <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-          <div class="buttons">
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-exchange-alt"></i></a>
-              <div class="tooltip-text">Compare</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span><span>$</span> 37.<sup>00</sup></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
           </div>
-        </li>
+          <span><span>$</span> 37.<sup>00</sup></span>
+        </div>
+      </li>
 
-        <li class="splide__slide">
-          <div class="p-image">
-            <a href="#">
-              <img src="assets/images/featured-product-3.jpg" alt="Product Title">
-            </a>
-            <span class="new">New</span>
+      <li class="slider-item">
+        <div class="p-image">
+          <a href="#">
+            <img src="assets/images/featured-product-3.jpg" alt="Product Title">
+          </a>
+          <span class="new">New</span>
+        </div>
+        <div class="title">
+          <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
+          <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+        </div>
+        <div class="buttons">
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-exchange-alt"></i></a>
+            <div class="tooltip-text">Compare</div>
           </div>
-          <div class="title">
-            <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
-            <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-          <div class="buttons">
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-exchange-alt"></i></a>
-              <div class="tooltip-text">Compare</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span class="new"><span>$</span> 8.<sup>99</sup></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
           </div>
-        </li>
+          <span class="new"><span>$</span> 8.<sup>99</sup></span>
+        </div>
+      </li>
 
-        <li class="splide__slide">
-          <div class="p-image">
-            <a href="#">
-              <img src="assets/images/featured-product-4.jpg" alt="Product Title">
-            </a>
+      <li class="slider-item">
+        <div class="p-image">
+          <a href="#">
+            <img src="assets/images/featured-product-4.jpg" alt="Product Title">
+          </a>
+        </div>
+        <div class="title">
+          <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
+          <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+        </div>
+        <div class="buttons">
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-exchange-alt"></i></a>
+            <div class="tooltip-text">Compare</div>
           </div>
-          <div class="title">
-            <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
-            <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-          <div class="buttons">
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-exchange-alt"></i></a>
-              <div class="tooltip-text">Compare</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span><span>$</span> 5.<sup>00</sup></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
           </div>
-        </li>
+          <span><span>$</span> 5.<sup>00</sup></span>
+        </div>
+      </li>
 
-        <li class="splide__slide">
-          <div class="p-image">
-            <a href="#">
-              <img src="assets/images/featured-product-5.jpg" alt="Product Title">
-            </a>
+      <li class="slider-item">
+        <div class="p-image">
+          <a href="#">
+            <img src="assets/images/featured-product-5.jpg" alt="Product Title">
+          </a>
+        </div>
+        <div class="title">
+          <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
+          <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+        </div>
+        <div class="buttons">
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-exchange-alt"></i></a>
+            <div class="tooltip-text">Compare</div>
           </div>
-          <div class="title">
-            <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
-            <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-          <div class="buttons">
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-exchange-alt"></i></a>
-              <div class="tooltip-text">Compare</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span><span>$</span> 50.<sup>99</sup></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
           </div>
-        </li>
+          <span><span>$</span> 50.<sup>99</sup></span>
+        </div>
+      </li>
 
-        <li class="splide__slide">
-          <div class="p-image">
-            <a href="#">
-              <img src="assets/images/featured-product-6.jpg" alt="Product Title">
-            </a>
+      <li class="slider-item">
+        <div class="p-image">
+          <a href="#">
+            <img src="assets/images/featured-product-6.jpg" alt="Product Title">
+          </a>
+        </div>
+        <div class="title">
+          <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
+          <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+        </div>
+        <div class="buttons">
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-exchange-alt"></i></a>
+            <div class="tooltip-text">Compare</div>
           </div>
-          <div class="title">
-            <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
-            <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-          <div class="buttons">
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-exchange-alt"></i></a>
-              <div class="tooltip-text">Compare</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span><span>$</span> 5.<sup>00</sup></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
           </div>
-        </li>
+          <span><span>$</span> 5.<sup>00</sup></span>
+        </div>
+      </li>
 
-        <li class="splide__slide">
-          <div class="p-image">
-            <a href="#">
-              <img src="assets/images/featured-product-7.jpg" alt="Product Title">
-            </a>
+      <li class="slider-item">
+        <div class="p-image">
+          <a href="#">
+            <img src="assets/images/featured-product-7.jpg" alt="Product Title">
+          </a>
+        </div>
+        <div class="title">
+          <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
+          <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+        </div>
+        <div class="buttons">
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-exchange-alt"></i></a>
+            <div class="tooltip-text">Compare</div>
           </div>
-          <div class="title">
-            <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
-            <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-          <div class="buttons">
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-exchange-alt"></i></a>
-              <div class="tooltip-text">Compare</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span><span>$</span> 150.<sup>99</sup></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
           </div>
-        </li>
+          <span><span>$</span> 150.<sup>99</sup></span>
+        </div>
+      </li>
 
-        <li class="splide__slide">
-          <div class="p-image">
-            <a href="#">
-              <img src="assets/images/featured-product-8.jpg" alt="Product Title">
-            </a>
+      <li class="slider-item">
+        <div class="p-image">
+          <a href="#">
+            <img src="assets/images/featured-product-8.jpg" alt="Product Title">
+          </a>
+        </div>
+        <div class="title">
+          <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
+          <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+        </div>
+        <div class="buttons">
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-exchange-alt"></i></a>
+            <div class="tooltip-text">Compare</div>
           </div>
-          <div class="title">
-            <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
-            <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h4>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <div class="tooltip-text">Add to wishlist</div>
           </div>
-          <div class="buttons">
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-exchange-alt"></i></a>
-              <div class="tooltip-text">Compare</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-heart"></i></a>
-              <div class="tooltip-text">Add to wishlist</div>
-            </div>
-            <div class="tooltip">
-              <a href="#"><i class="fas fa-shopping-cart"></i></a>
-              <div class="tooltip-text">Add to cart</div>
-            </div>
-            <span><span>$</span> 35.<sup>00</sup></span>
+          <div class="tooltip">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div class="tooltip-text">Add to cart</div>
           </div>
-        </li>
-      </ul>
-    </div>
+          <span><span>$</span> 35.<sup>00</sup></span>
+        </div>
+      </li>
+    </ul>
   </section>
 
   <!-- About section -->

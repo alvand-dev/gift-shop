@@ -491,7 +491,7 @@ i#back-to-top {
 }
 
 #new-products header div a i, #featured-products header div a i {
-  padding: 11px 14px;
+  padding: 11px 10px;
   font-size: 19px;
   background-color: rgba(33, 33, 33, 0.8);
   cursor: pointer;
@@ -503,13 +503,9 @@ i#back-to-top {
 }
 
 #new-products ul li {
-  overflow: hidden;
+  position: relative;
   background-color: var(--light-primary-color);
   border: 1px solid var(--divider-color);
-}
-
-#new-products ul li a img {
-  min-height: 120px;
 }
 
 #new-products ul li .buttons {
@@ -539,6 +535,10 @@ i#back-to-top {
   background-color: var(--accent-color);
 }
 
+#featured-products ul li {
+  margin-bottom: 0;
+}
+
 #featured-products ul li:hover {
   border: 1px dashed var(--secondary-text);
   transition: 0s;
@@ -553,6 +553,7 @@ i#back-to-top {
 
 #featured-products ul li .p-image a img {
   min-height: 150px;
+  margin-bottom: -4px;
 }
 
 #featured-products ul li .p-image .off, #featured-products ul li .p-image .new {
@@ -941,12 +942,6 @@ i#back-to-top {
 
   #new-products ul li .buttons span sup {
     font-size: 14px;
-  }
-
-  /* Featured products */
-
-  #featured-products ul li {
-    margin-bottom: 14px;
   }
 
   /* Main footer */
