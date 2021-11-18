@@ -1177,7 +1177,7 @@ i#back-to-top {
     margin: 0 0 24px;
     padding: 0 24px;
     position: static;
-    width: unset;
+    width: unset !important;
     overflow-x: unset;
     border-right: none;
   }
