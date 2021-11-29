@@ -10,7 +10,7 @@ I use Normalize.css for compatibility purposes and also use Fontawesome Solid an
 
 All of the images are free to use, and most of them are from unsplash.com.
 
-Thanks to <a href="https://disqus.com/by/amysxain/" target="_blank">Amys Xain</a> for theme .psd file.
+Thanks to <a href="https://disqus.com/by/amysxain/" target="_blank">Amys Xain</a> for the theme .psd file.
 
 You can see the theme on:
 https://mohammad177.github.io/gift-shop-theme/
