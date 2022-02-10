@@ -1,14 +1,10 @@
 # Gift Shop Theme
 
-It is a modern modular gift shop e-commerce responsive website template built with HTML, CSS, and JavaScript.
+This is an amazing modern modular gift shop e-commerce responsive website theme built with pure HTML, CSS, and JavaScript. I didn’t use any CSS or JavaScript framework and built it with relatively new CSS techniques like flexbox and grid system as needed.
 
-This theme, tested in the recent version of Chrome, Firefox, Edge, and Opera Browsers (September 2021).
+Gift shop theme, tested in the recent version of Chrome, Firefox, Edge, and Opera Browsers (September 2021) and passed all the tests. The tests included responsiveness to show theme good not just on desktop computers but on tablets and smartphones too.
 
-I didn’t use any CSS or JS framework. Gift Shop Theme built with relatively new CSS techniques like flexbox and grid system as needed.
-
-I use Normalize.css for compatibility purposes and also use Fontawesome Solid and Lato regular font.
-
-All of the images are free to use, and most of them are from unsplash.com.
+I used Normalize.css for template compatibility and look the same in different browsers. Fontawesome Solid for icons and Lato regular font as font family used too. All of the different images in the project are free to use, and most of them are from unsplash.com.
 
 Thanks to <a href="https://disqus.com/by/amysxain/" target="_blank">Amys Xain</a> for the theme .psd file.
 
