@@ -9,7 +9,7 @@ I used Normalize.css for template compatibility and look the same in different b
 Thanks to <a href="https://disqus.com/by/amysxain/" target="_blank">Amys Xain</a> for the theme .psd file.
 
 You can see the theme on:
-https://mohammad177.github.io/gift-shop-theme/
+https://alvand1399.github.io/gift-shop-theme/
 
 Desktop size screenshot:
 
