@@ -1,4 +1,4 @@
-# Gift Shop Theme
+# Gift Shop Responsive Website Theme
 
 This is an amazing modern modular gift shop e-commerce responsive website theme built with pure HTML, CSS, and JavaScript. I didn’t use any CSS or JavaScript framework and built it with relatively new CSS techniques like flexbox and grid system as needed.
 
