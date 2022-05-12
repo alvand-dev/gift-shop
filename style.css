@@ -183,12 +183,28 @@ i#back-to-top {
 }
 
 #main-header nav ul li a {
-  display: inline-block;
+  display: inline-flex;
   padding: 15px 0;
   width: 100%;
-  text-align: center;
-  color: var(--white);
-  font-size: 24px;
+  justify-content: center;
+}
+
+#main-header nav ul li a i {
+  display: inline-flex;
+}
+
+#main-header nav ul li a i svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--white);
+}
+
+#main-header nav ul li a i.fas-user-plus svg {
+  width: 28px;
+}
+
+#main-header nav ul li a span {
+  display: none;
 }
 
 /* Main navigation bar  */
@@ -1176,28 +1192,18 @@ i#back-to-top {
     border-bottom: unset;
   }
 
-  #main-header nav ul li a i::after {
+  #main-header nav ul li a {
+    align-items: center;
+    color: var(--white);
+  }
+
+  #main-header nav ul li a span {
+    display: unset;
     font-size: 16px;
     font-family: Lato-Regular, sans-serif;
     font-weight: normal;
     margin-left: 5px;
     vertical-align: middle;
-  }
-
-  #main-header nav ul li a i.fa-user-plus::after {
-    content: 'Register';
-  }
-
-  #main-header nav ul li a i.fa-sign-in-alt::after {
-    content: 'Login';
-  }
-
-  #main-header nav ul li a i.fa-heart::after {
-    content: 'Wishlist';
-  }
-
-  #main-header nav ul li a i.fa-shopping-cart::after {
-    content: 'Cart';
   }
 
   /* Main navigation bar  */
