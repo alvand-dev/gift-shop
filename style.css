@@ -857,13 +857,21 @@ i#back-to-top svg {
   #new-products .tooltip a {
     background-color: var(--dark-primary-color);
     display: inline-block;
-    padding: 11.5px;
-    color: var(--white);
-    font-size: 24px;
+    padding: 13px;
   }
 
   #new-products .tooltip:nth-child(3) a {
     background-color: var(--accent-color);
+    padding: 14px 13px;
+  }
+
+  #new-products .tooltip a i {
+    display: flex;
+  }
+
+  #new-products .tooltip a i svg {
+    fill: var(--white);
+    width: 24px;
   }
 
   /* Top navigation bar */
