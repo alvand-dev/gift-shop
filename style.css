@@ -530,11 +530,16 @@ i#back-to-top svg {
 
 #new-products header div a i,
 #featured-products header div a i {
-  padding: 11px 10px;
-  font-size: 19px;
+  display: inline-flex;
+  padding: 10px;
   background-color: rgba(33, 33, 33, 0.8);
   cursor: pointer;
-  color: var(--white);
+}
+
+#new-products header div a i svg,
+#featured-products header div a i svg {
+  fill: var(--white);
+  width: 12px;
 }
 
 #new-products header div a i:hover {
@@ -973,7 +978,11 @@ i#back-to-top svg {
   #new-products header div a i,
   #featured-products header div a i {
     padding: 18px 26px;
-    font-size: 22px;
+  }
+
+  #new-products header div a i svg,
+  #featured-products header div a i svg {
+    width: 14px;
   }
 
   #new-products ul li .buttons span {
@@ -1089,7 +1098,11 @@ i#back-to-top svg {
   #new-products header div a i,
   #featured-products header div a i {
     padding: 16px 24px;
-    font-size: 20px;
+  }
+
+  #new-products header div a i svg,
+  #featured-products header div a i svg {
+    width: 13px;
   }
 
   #new-products .buttons span:last-child,
@@ -1257,7 +1270,11 @@ i#back-to-top svg {
   #new-products header div a i,
   #featured-products header div a i {
     padding: 18px 26px;
-    font-size: 22px;
+  }
+
+  #new-products header div a i svg,
+  #featured-products header div a i svg {
+    width: 14px;
   }
 
   /* Steps section */
@@ -1452,7 +1469,11 @@ i#back-to-top svg {
   #new-products header div a i,
   #featured-products header div a i {
     padding: 20px 28px;
-    font-size: 24px;
+  }
+
+  #new-products header div a i svg,
+  #featured-products header div a i svg {
+    width: 15px;
   }
 
   /* Main footer */
