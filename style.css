@@ -862,7 +862,7 @@ i#back-to-top svg {
 
   #new-products .tooltip:nth-child(3) a {
     background-color: var(--accent-color);
-    padding: 14px 13px;
+    padding: 14.5px 13px;
   }
 
   #new-products .tooltip a i {
