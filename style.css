@@ -94,13 +94,24 @@ i#back-to-top svg {
 #featured-products .tooltip a {
   display: inline-block;
   padding: 13px;
-  width: 100%;
-  color: #979797;
+}
+
+#featured-products .tooltip a i {
+  display: flex;
+}
+
+#featured-products .tooltip a i svg {
+  fill: #979797;
+  width: 17px;
   transition: 0s;
 }
 
-#featured-products .tooltip a:hover {
-  color: var(--secondary-text);
+#featured-products .tooltip:last-of-type a i svg {
+  width: 19px;
+}
+
+#featured-products .tooltip a:hover i svg {
+  fill: var(--secondary-text);
 }
 
 /* Top navigation bar */
