@@ -444,9 +444,13 @@ i#back-to-top {
 }
 
 #div-b-1 form button i {
-  font-size: 36px;
-  color: var(--white);
+  display: flex;
+}
+
+#div-b-1 form button i svg {
+  fill: var(--white);
   transform: rotateY(180deg);
+  width: 36px;
 }
 
 #div-b-2 {
@@ -1406,8 +1410,8 @@ i#back-to-top {
     margin-left: 16px;
   }
 
-  #div-b-1 form button i {
-    font-size: 52px;
+  #div-b-1 form button i svg {
+    width: 52px;
   }
 
   #div-b-2 {
