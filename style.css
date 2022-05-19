@@ -71,10 +71,13 @@ i#back-to-top {
   border: none;
   outline: none;
   background-color: var(--secondary-text);
-  color: var(--white);
   cursor: pointer;
   padding: 10px 15px;
-  font-size: 18px;
+}
+
+i#back-to-top svg {
+  fill: var(--white);
+  width: 12px;
 }
 
 /* Tooltips */
