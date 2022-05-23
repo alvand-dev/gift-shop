@@ -595,9 +595,8 @@ i#back-to-top svg {
   margin-bottom: 0;
 }
 
-#featured-products ul li:hover {
-  border: 1px dashed var(--secondary-text);
-  transition: 0s;
+#featured-products ul li:hover img {
+  opacity: 0.75;
 }
 
 #featured-products ul li .p-image {
