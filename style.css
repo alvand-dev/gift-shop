@@ -240,16 +240,30 @@ i#back-to-top svg {
   position: absolute;
   top: 15px;
   right: 15px;
-  font-size: 24px;
-  color: var(--white);
+}
+
+#close-main-nav-btn i {
+  display: flex;
+}
+
+#close-main-nav-btn i svg {
+  width: 18px;
+  fill: var(--white);
 }
 
 #open-main-nav-btn {
-  font-size: 24px;
-  color: var(--dark-primary-color);
   position: absolute;
   top: 10px;
   left: 10px;
+}
+
+#open-main-nav-btn i {
+  display: flex;
+}
+
+#open-main-nav-btn i svg {
+  width: 20px;
+  fill: var(--dark-primary-color);
 }
 
 #main-nav menu li a {
