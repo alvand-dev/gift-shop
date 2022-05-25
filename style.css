@@ -240,6 +240,7 @@ i#back-to-top svg {
   position: absolute;
   top: 15px;
   right: 15px;
+  animation: bounce 1s infinite linear;
 }
 
 #close-main-nav-btn i {
@@ -255,6 +256,7 @@ i#back-to-top svg {
   position: absolute;
   top: 10px;
   left: 10px;
+  animation: bounce 1s infinite linear;
 }
 
 #open-main-nav-btn i {
@@ -264,6 +266,20 @@ i#back-to-top svg {
 #open-main-nav-btn i svg {
   width: 20px;
   fill: var(--dark-primary-color);
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 #main-nav menu li a {
