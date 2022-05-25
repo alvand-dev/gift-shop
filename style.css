@@ -240,7 +240,8 @@ i#back-to-top svg {
   position: absolute;
   top: 15px;
   right: 15px;
-  animation: bounce 1s infinite linear;
+  background-color: var(--secondary-text);
+  padding: 4px 6px;
 }
 
 #close-main-nav-btn i {
@@ -248,15 +249,18 @@ i#back-to-top svg {
 }
 
 #close-main-nav-btn i svg {
-  width: 18px;
+  width: 16px;
   fill: var(--white);
+  animation: bounce 1s infinite linear;
 }
 
 #open-main-nav-btn {
-  position: absolute;
+  position: fixed;
   top: 10px;
   left: 10px;
-  animation: bounce 1s infinite linear;
+  background-color: var(--secondary-text);
+  z-index: 3;
+  padding: 4px 6px;
 }
 
 #open-main-nav-btn i {
@@ -264,8 +268,9 @@ i#back-to-top svg {
 }
 
 #open-main-nav-btn i svg {
-  width: 20px;
-  fill: var(--dark-primary-color);
+  width: 16px;
+  fill: var(--white);
+  animation: bounce 1s infinite linear;
 }
 
 @keyframes bounce {
