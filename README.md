@@ -10,4 +10,4 @@ You can [click on this link to see the theme's demo](https://alvand1399.github.i
 
 ## Giving Credit to Others
 
-I used [Normalize.css](https://necolas.github.io/normalize.css/) for template compatibility and look the same in different browsers. [Fontawesome Solid](https://fontawesome.com/) for icons and [Lato regular](https://fonts.google.com/specimen/Lato) font as font family used too. All of the images are free to use, and most of them are from [unsplash.com](https://unsplash.com/). Thanks to [Amys Xain](https://disqus.com/by/amysxain/) for the theme’s Photoshop design.
+I used [Normalize.css](https://necolas.github.io/normalize.css/) for template compatibility and look the same in different browsers. [Fontawesome](https://fontawesome.com/) for icons and [Lato regular](https://fonts.google.com/specimen/Lato) font as font family used too. All of the images are free to use, and most of them are from [unsplash.com](https://unsplash.com/). Thanks to [Amys Xain](https://disqus.com/by/amysxain/) for the theme’s Photoshop design.
