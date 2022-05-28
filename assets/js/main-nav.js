@@ -15,4 +15,15 @@
   close.addEventListener('click', () => {
     mainNav.style.width = '0';
   });
+
+  // Remove toggle-menu on click anywhere else
+  document.addEventListener('click', (e) => {
+    if (
+      !mainNav.contains(e.target) &&
+      !open.contains(e.target) &&
+      !close.contains(e.target)
+    ) {
+      mainNav.style.width = '0';
+    }
+  });
 }
