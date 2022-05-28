@@ -588,7 +588,7 @@ i#back-to-top svg {
 #featured-products header div a i {
   display: inline-flex;
   padding: 10px;
-  background-color: rgba(33, 33, 33, 0.8);
+  background-color: var(--secondary-text);
   cursor: pointer;
 }
 
