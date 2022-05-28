@@ -78,6 +78,16 @@ i#back-to-top {
 i#back-to-top svg {
   fill: var(--white);
   width: 12px;
+  animation: to-up 1s linear infinite;
+}
+
+@keyframes to-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-25%);
+  }
 }
 
 /* Tooltips */
