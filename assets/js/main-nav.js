@@ -26,4 +26,11 @@
       mainNav.style.width = '0';
     }
   });
+
+  // Reset toggle menu on large screen sizes
+  window
+    .matchMedia('screen and (max-width:991px)')
+    .addEventListener('change', () => {
+      mainNav.style.width = '0';
+    });
 }
