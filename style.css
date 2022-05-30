@@ -309,27 +309,34 @@ i#back-to-top svg {
 }
 
 #main-nav menu li menu {
-  display: none;
   background-color: var(--white);
-  border-top: 1px solid #dfdfdf;
-  padding: 27px 16px 11px;
+  max-height: 0;
+  overflow: hidden;
+  transition: 1.5s max-height;
 }
 
 #main-nav menu li:hover menu {
-  display: block;
+  max-height: 100vh;
 }
 
 #main-nav menu li menu li {
   display: grid;
   grid-template-columns: 92px 150px;
   grid-column-gap: 16px;
-  padding-bottom: 16px;
+  padding: 0 16px 16px;
   margin-bottom: 16px;
   border-bottom: 1px solid #dfdfdf;
 }
 
+#main-nav menu li menu li:first-child {
+  padding-top: 27px;
+  border-top: 1px solid #dfdfdf;
+}
+
 #main-nav menu li menu li:last-child {
-  display: unset;
+  display: block;
+  margin-bottom: 0;
+  padding-bottom: 11px;
   border: none;
 }
 
