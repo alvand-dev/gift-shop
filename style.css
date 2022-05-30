@@ -1614,3 +1614,12 @@ i#back-to-top svg {
     box-shadow: 0 0 1px 1px var(--primary-text);
   }
 }
+
+/* These styles are just for Firefox browser */
+@-moz-document url-prefix() {
+  /* Main navigation bar  */
+
+  #main-nav menu li menu {
+    top: 57px;
+  }
+}
