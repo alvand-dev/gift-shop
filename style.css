@@ -198,12 +198,12 @@ i#back-to-top svg {
 }
 
 #main-header nav ul li {
-  background-color: var(--primary-color);
+  background-color: var(--dark-primary-color);
   flex-basis: 25%;
 }
 
 #main-header nav ul li:nth-child(even) {
-  background-color: var(--accent-color);
+  background-color: var(--primary-text);
 }
 
 #main-header nav ul li a {
