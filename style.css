@@ -67,7 +67,7 @@ i#back-to-top {
   bottom: 50px;
   left: 50%;
   transform: translate(-50%, 0);
-  z-index: 99;
+  z-index: 5;
   border: none;
   outline: none;
   background-color: var(--secondary-text);
@@ -239,7 +239,7 @@ i#back-to-top svg {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 3;
+  z-index: 6;
   background-color: var(--dark-primary-color);
   overflow-x: hidden;
   padding-top: 60px;
