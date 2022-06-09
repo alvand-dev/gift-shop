@@ -242,32 +242,14 @@ i#back-to-top svg {
   z-index: 6;
   background-color: var(--dark-primary-color);
   overflow-x: hidden;
-  padding-top: 60px;
+  padding-top: 30px;
   border-right: 1px solid var(--divider-color);
-}
-
-#close-main-nav-btn {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background-color: var(--secondary-text);
-  padding: 4px 6px;
-}
-
-#close-main-nav-btn i {
-  display: flex;
-}
-
-#close-main-nav-btn i svg {
-  width: 16px;
-  fill: var(--white);
-  animation: bounce 1s infinite linear;
 }
 
 #open-main-nav-btn {
   position: fixed;
   top: 10px;
-  left: 10px;
+  right: 10px;
   background-color: var(--secondary-text);
   z-index: 3;
   padding: 4px 6px;
@@ -303,9 +285,10 @@ i#back-to-top svg {
   color: var(--white);
 }
 
-#main-nav menu li:hover a {
+#main-nav menu li:hover a,
+#main-nav menu li:focus-within a {
   background-color: var(--white);
-  color: var(--accent-color);
+  color: var(--primary-text);
 }
 
 #main-nav menu li menu {
@@ -315,13 +298,14 @@ i#back-to-top svg {
   transition: 1.5s max-height;
 }
 
-#main-nav menu li:hover menu {
+#main-nav menu li:hover menu,
+#main-nav menu li:focus-within menu {
   max-height: 100vh;
 }
 
 #main-nav menu li menu li {
   display: grid;
-  grid-template-columns: 92px 150px;
+  grid-template-columns: 92px 130px;
   grid-column-gap: 16px;
   padding: 0 16px 16px;
   margin-bottom: 16px;
@@ -349,10 +333,13 @@ i#back-to-top svg {
   padding: 0;
   height: 20px;
   overflow: hidden;
+  background-color: var(--white) !important;
+  color: var(--primary-text) !important;
 }
 
 #main-nav menu li menu li span {
-  color: var(--primary-text);
+  color: var(--dark-primary-color);
+  background-color: var(--white);
   font-size: 14px;
   height: 38px;
   overflow: hidden;
@@ -360,22 +347,22 @@ i#back-to-top svg {
 }
 
 #main-nav menu li menu li a:last-child {
-  color: var(--white);
+  background-color: var(--dark-primary-color) !important;
+  color: var(--white) !important;
   font-size: 12px;
   text-align: center;
   width: 75%;
   padding: 3px 0 0px;
   height: 22px;
-  background-color: var(--primary-color);
 }
 
 #main-nav menu li menu li:last-child a {
-  color: var(--accent-color);
+  background-color: var(--white) !important;
+  color: var(--primary-text) !important;
   font-size: unset;
   text-align: left;
   width: 100%;
   padding: 0;
-  background-color: unset;
 }
 
 /* Section a */
@@ -1310,7 +1297,6 @@ i#back-to-top svg {
 
   /* Main navigation bar  */
 
-  #close-main-nav-btn,
   #open-main-nav-btn {
     display: none;
   }
