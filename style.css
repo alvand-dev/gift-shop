@@ -111,7 +111,7 @@ i#back-to-top svg {
 }
 
 #featured-products .tooltip a i svg {
-  fill: #979797;
+  fill: var(--secondary-text);
   width: 17px;
   transition: 0s;
 }
@@ -121,7 +121,7 @@ i#back-to-top svg {
 }
 
 #featured-products .tooltip a:hover i svg {
-  fill: var(--secondary-text);
+  fill: var(--primary-text);
 }
 
 /* Top navigation bar */
@@ -582,7 +582,7 @@ i#back-to-top svg {
 #featured-products header div a i {
   display: inline-flex;
   padding: 10px;
-  background-color: var(--secondary-text);
+  background-color: var(--dark-primary-color);
   cursor: pointer;
 }
 
@@ -592,8 +592,9 @@ i#back-to-top svg {
   width: 12px;
 }
 
-#new-products header div a i:hover {
-  background-color: var(--primary-color);
+#new-products header div a i:hover,
+#featured-products header div a i:hover {
+  background-color: var(--accent-color);
 }
 
 #new-products ul li {
@@ -626,10 +627,6 @@ i#back-to-top svg {
 
 /* Featured products */
 
-#featured-products header div a i:hover {
-  background-color: var(--accent-color);
-}
-
 #featured-products ul li {
   margin-bottom: 0;
 }
@@ -655,16 +652,12 @@ i#back-to-top svg {
   position: absolute;
   left: 0;
   top: 12px;
-  background-color: var(--accent-color);
+  background-color: var(--primary-text);
   padding: 12px 8px;
   color: var(--white);
   min-width: 80px;
   text-align: center;
   font-size: 14px;
-}
-
-#featured-products ul li .p-image .new {
-  background-color: var(--primary-color);
 }
 
 #featured-products ul li .title {
@@ -703,14 +696,10 @@ i#back-to-top svg {
 #featured-products ul li .buttons > span {
   padding: 11px 5px;
   font-size: 20px;
-  background-color: var(--accent-color);
+  background-color: var(--dark-primary-color);
   text-align: center;
   color: var(--white);
   flex-grow: 2;
-}
-
-#featured-products ul li .buttons > span.new {
-  background-color: var(--primary-color);
 }
 
 #featured-products ul li .buttons span sup {
