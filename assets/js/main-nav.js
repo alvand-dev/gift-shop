@@ -1,6 +1,6 @@
-'use strict';
+(function () {
+  'use strict';
 
-{
   // Catch HTML elements
   const mainNav = document.querySelector('#main-nav');
   const openBtn = document.querySelector('#open-main-nav-btn');
@@ -27,4 +27,4 @@
   window.matchMedia('screen and (max-width:991px)').addEventListener('change', () => {
     mainNav.style.width = '0';
   });
-}
+})();

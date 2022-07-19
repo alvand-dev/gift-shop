@@ -1,6 +1,6 @@
-'use strict';
+(function () {
+  'use strict';
 
-{
   // Catch the HTML element
   const backToTop = document.querySelector('#back-to-top');
 
@@ -17,4 +17,4 @@
   backToTop.addEventListener('click', () => {
     window.scrollTo(0, 0);
   });
-}
+})();
