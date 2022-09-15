@@ -1570,7 +1570,8 @@ i#back-to-top svg {
     transform: translate(-50%, -50%);
   }
 
-  #new-products ul li:hover .buttons {
+  #new-products ul li:hover .buttons,
+  #new-products ul li:focus-within .buttons {
     opacity: 1;
   }
 
