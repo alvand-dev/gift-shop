@@ -64,7 +64,7 @@ noscript {
 i#back-to-top {
   display: none;
   position: fixed;
-  bottom: 50px;
+  bottom: 0px;
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 5;
@@ -184,16 +184,12 @@ i#back-to-top svg {
 }
 
 #main-header nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 3;
+  margin-top: 16px;
 }
 
 #main-header nav ul {
   display: flex;
-  width: 96%;
+  width: 280px;
   margin: auto;
 }
 
@@ -883,7 +879,7 @@ i#back-to-top svg {
   justify-content: center;
   border-top: 1px solid var(--divider-color);
   border-bottom: 1px solid var(--divider-color);
-  margin: 24px 0 72px;
+  margin: 24px 0 44px;
   padding: 8px;
 }
 
@@ -896,12 +892,6 @@ i#back-to-top svg {
 /* Devices with width 576px and up */
 
 @media only screen and (min-width: 576px) {
-  /* Back to top button */
-
-  i#back-to-top {
-    bottom: 0;
-  }
-
   /* Tooltips */
 
   #new-products .tooltip a {
@@ -980,7 +970,7 @@ i#back-to-top svg {
   }
 
   #main-header nav {
-    position: static;
+    margin-top: 0;
   }
 
   #main-header nav ul {
@@ -1086,7 +1076,6 @@ i#back-to-top svg {
   /* Bottom footer */
 
   #bottom-footer {
-    margin-bottom: 24px;
     flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: space-between;
@@ -1537,12 +1526,6 @@ i#back-to-top svg {
 
   #main-footer .widget h2 {
     font-size: 25px;
-  }
-
-  /* Bottom footer */
-
-  #bottom-footer {
-    margin-bottom: 16px;
   }
 }
 
