@@ -45,6 +45,14 @@
           this.shiftSlides();
         }
       });
+
+      // Disable focus on all slides links
+      this.sliderItems.forEach((item) => {
+        const elements = item.querySelectorAll('a');
+        elements.forEach((element) => {
+          element.tabIndex = '-1';
+        });
+      });
     }
 
     // Run the slider
@@ -57,7 +65,7 @@
 
           // Reset the slider
           this.currentItemIndex = 0;
-          this.sliderList.style.transform = 'translateX(0)';
+          this.sliderList.style.transform = 'translateX(0%)';
 
           // Set slider list width
           this.sliderList.style.width = `calc(${(100 / this.numberOfVisibleItems) * this.sliderItemsLength}% + ${(this.sliderItemsLength / this.numberOfVisibleItems) * 16}px)`;
@@ -76,7 +84,7 @@
 
     // A function to shift slides left and right
     shiftSlides() {
-      this.sliderList.style.transform = `translateX(-${(100 / this.sliderItemsLength) * this.currentItemIndex}%`;
+      this.sliderList.style.transform = `translateX(-${(100 / this.sliderItemsLength) * this.currentItemIndex}%)`;
     }
   }
 
